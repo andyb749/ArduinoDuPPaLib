@@ -119,7 +119,6 @@ int8_t i2cEncoderMiniLib::readCounterByte(void) {
 }
 
 // Return the an unsigned 8 bit value of the encoder counter
-inline
 uint8_t i2cEncoderMiniLib::readCounterUint8()
 {
   return readEncoderByte(REG_CVALB1);
