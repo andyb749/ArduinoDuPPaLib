@@ -11,6 +11,8 @@
 // AUTHOR:
 // Simone Caron
 //
+// Updates:
+// 14-Oct-23 - Added readCounterUInt8
 
 #include "i2cEncoderMiniLib.h"
 #include <Wire.h>
@@ -115,6 +117,14 @@ int16_t i2cEncoderMiniLib::readCounterInt(void) {
 int8_t i2cEncoderMiniLib::readCounterByte(void) {
   return ((int8_t) readEncoderByte(REG_CVALB1));
 }
+
+// Return the an unsigned 8 bit value of the encoder counter
+inline
+uint8_t i2cEncoderMiniLib::readCounterUint8()
+{
+  return readEncoderByte(REG_CVALB1);
+}
+
 
 /** Return the Maximum threshold of the counter **/
 int32_t i2cEncoderMiniLib::readMax(void) {

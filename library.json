@@ -1,6 +1,6 @@
 {
     "name": "ArduinoDuPPaLib",
-    "version": "1.4.0",
+    "version": "1.3.0",
     "description": "library collection of the DuPPa boards for the Arduino",
     "keywords": "I2C, DuPPa, Encoder",
     "repository": {

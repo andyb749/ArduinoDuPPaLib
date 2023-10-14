@@ -121,6 +121,7 @@ class i2cEncoderMiniLib {
     int32_t readCounterLong(void);
     int16_t readCounterInt(void);
     int8_t readCounterByte(void);
+    uint8_t readCounterUint8();
     int32_t readMax(void);
     int32_t readMin(void);
     int32_t readStep(void);
