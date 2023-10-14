@@ -1,6 +1,6 @@
 # DuPPa library for the Arduino IDE
 
-In this repository there is a library collection of the DuPPa boards for the Arduino IDE.
+In this repository there is a library collection of the DuPPa boards for the Arduino IDE and Platform IO.
 
 All the boards are available on [DuPPa Store!](https://www.duppa.net/product-category/i2c-devices/)
 
@@ -15,7 +15,7 @@ Currently supported boards:
 - [RGB LED Ring Small](https://github.com/Fattoresaimon/RGB_LED_Ring_Small) Library description [here](https://github.com/Fattoresaimon/ArduinoDuPPaLib/blob/master/examples/RGB%20LED%20Ring%20Small/README.md)
 
 
-## Installation
+## Installation - Arduino IDE
 
 #### Step 1:
 
@@ -31,3 +31,9 @@ In the windows select the downloaded ZIP file.
 
 
 If everything is done correctly, under the examples there will be the **DuPPa Library** section.
+
+## Installation - Platform IDE
+
+#### platformio.ini
+
+Add the following entry to your platformio.ini: git+https://github.com/andyb749/arduinoduppalib.git
